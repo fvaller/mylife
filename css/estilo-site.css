@@ -1,0 +1,388 @@
+/***********************
+       DIVERSAS
+***********************/
+.content{padding: 0px;}
+.left{float: left;}
+.right{float: right;}
+.clear{clear: both;}
+.ico_success{padding-left:20px;background:url(../images/success.jpg) no-repeat left center}
+.ico_cancel{padding-left:20px;background:url(../images/error.jpg) no-repeat left center}
+#success{margin-bottom:15px;border:1px solid #b2dc4d;color:#40550d;font-family:Arial, sans-serif;font-size:12px;background:#cce297;font-weight:700;padding:5px;-moz-border-radius:3px;-webkit-border-radius: 3px;}
+#fail{margin-bottom:15px;border:1px solid #c82820;color:#c82820;font-size:12px;font-family:Arial, sans-serif;font-weight: bold; background:#e7928d;padding:5px;-moz-border-radius:3px;-webkit-border-radius: 3px;}
+
+.mr10{margin-right: 10px;}
+.mr15{margin-right: 15px;}
+.mr20{margin-right: 20px;}
+
+
+a.tooltip span {display:none; font-size: 10px; text-align: left; padding:2px 3px; margin-left:8px; width:200px;}
+a.tooltip:hover span{display:inline; right: 10px; position:absolute; background:#FFF; border:1px solid #CCC; color:#6c6c6c;}
+
+.hr1{
+  border-width: 0;
+  height: 1px;
+  border-top-width: 1px;
+  padding: 0;
+  margin: 5px 0 0 0;
+  color: #DDD;
+}
+
+/***********************
+       GERAL
+***********************/
+body{
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 12px;
+  line-height: 1.4em;
+  background: #FFF;
+}
+
+#site{
+  width: 930px;
+  margin: 0 auto;
+  background: #FFF;
+  padding: 0 15px;
+}
+
+
+/***********************
+       TOPO
+***********************/
+#topo{
+  display: block;
+  padding: 20px 0;
+}
+#topo #logo{
+  display: block;
+  font-size: 28px;
+}
+#topo #logo a{
+  text-decoration: none;
+  color: #444;
+}
+#topo #logo small{
+  font-size: 14px;
+  font-weight: normal;
+}
+
+/***********************
+       CORPO
+***********************/
+#nav-bar{
+  display: block;
+  height: 35px;
+  overflow: hidden;
+  margin-bottom: 20px;
+  /*background: url(../images/bg-navbar.png) repeat-x 0 0 #B0BCCD;*/
+}
+#nav-bar ul{padding: 9px 15px; }
+#nav-bar ul li{display: inline; padding: 10px 25px; border-right: 1px groove #DDD; background: #478FE6; }
+#nav-bar ul li a{font-size: 12px; color: #FFF; text-decoration: none; font-weight: bold; padding: 10px;}
+#nav-bar ul li a:hover{ }
+
+
+/***********************
+       CORPO
+***********************/
+#corpo{
+  display: block;
+  margin-bottom: 20px;
+}
+#corpo .top{
+  display: block;
+  padding: 0 0px;
+  margin-bottom: 15px;
+}
+#corpo .top .left{
+
+}
+#corpo .top .left .titulo-projeto{
+  color: #438DE6;
+  font-size: 18px;
+  background: url(../images/icon-h3-projeto.png) no-repeat 0 0;
+  padding: 5px 0 0px 40px;
+  height: 27px;
+}
+#corpo .top .left h2{
+  font-size: 22px;
+  color: #333;
+  padding: 5px 0;
+  display: inline;
+}
+
+#corpo .top .right{
+}
+#corpo .top .right ul{
+  padding: 5px 0px;
+  text-align: right;
+}
+#corpo .top .right ul li{
+  display: inline;
+}
+#corpo .top .right ul li a{
+  text-decoration: none;
+  padding: 5px;
+}
+#corpo .top .right ul li a:hover{
+  text-decoration: underline;
+}
+
+/* COMANDOS */
+#corpo .comandos{
+  background:url(../images/bg-um.png) repeat-x top left #F7F7F7;
+  margin-bottom: 15px;
+  padding: 10px;
+  border-bottom: 1px solid #CDCDCD;
+}
+#corpo .comandos h3{
+  display: block;
+  font-size: 14px;
+  padding: 5px 0;
+  border-bottom: 1px solid #444;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+#corpo .box-tarefa{
+  background: url(../images/bg-um.png) repeat-x top left #F2F2F2;
+  padding: 5px 15px;
+  overflow: hidden;
+  border-bottom: 1px solid #C4C4C4;
+  margin-bottom: 15px;
+
+}
+#corpo .box-tarefa .field-tarefa{
+  width: 625px;
+
+}
+
+
+/* TABELA */
+#corpo .conteudo #tb-principal{
+  width: 100%;
+}
+#corpo .conteudo #tb-principal thead{
+  background: url(../images/bg-nav2.png) repeat-x 0 0;
+  border: 1px solid #BFBFBF;
+  background-color:#eee;
+  color:#4C77AF;
+  font-weight: bold;
+  cursor: default;
+  text-align: center;
+  display: none;
+}
+#corpo .conteudo #tb-principal thead tr td{
+  padding: 5px;
+}
+#corpo .conteudo #tb-principal tbody{
+  border-collapse: collapse;
+}
+#corpo .conteudo #tb-principal tbody tr td{
+  padding: 5px;
+  border-bottom: 1px solid #DDD;
+/*  border-left: 1px solid #DDD;
+  border-right: 1px solid #DDD;*/
+  text-align: center;
+}
+
+.entradas{
+  background: #359AFF;
+  font-weight: bold;
+  color: #FFF;
+}
+.saidas{
+  background: #FF5353;
+  font-weight: bold;
+  color: #FFF;
+}
+
+
+/***********************
+       RODAPE
+***********************/
+#rodape{
+  border-top: 1px solid #7489A7;
+}
+#rodape .conteudo{
+  padding: 5px 10px;
+  font-size: 11px;
+  color: #444;
+}
+
+
+
+/***********************
+       PAGINAS
+***********************/
+
+/* TAREFAS */
+
+#corpo .projetos{
+  width: 160px;
+}
+#corpo .projetos h2{
+  display: block;
+  width: 160px;
+  height: 25px;
+  background: url(../images/my-filtros.png) no-repeat 0 0;
+  border-bottom: 1px solid #333;
+}
+#corpo .projetos ul{
+  display: block;
+  margin: 0;padding: 0;
+}
+#corpo .projetos ul .proj{
+  display: block;
+  width: 160px;
+  height: 25px;
+  margin-top: 10px;
+  background: url(../images/my-projetos.png) no-repeat 0 0;
+  border-bottom: 1px solid #333;
+}
+#corpo .projetos ul li{
+  display: block;
+  border-bottom: 1px solid #E8E8E8;
+}
+#corpo .projetos ul li a{
+  display: block;
+  text-decoration: none;
+  color: #000;
+  padding: 6px 5px 6px 20px;
+  background: url(../images/projet.png) no-repeat left center;
+}
+#corpo .projetos ul li a:hover{
+  background-color: #FFFFCC;
+}
+#corpo .projetos ul li .m-diversos{
+  background: url(../images/diversos.png) no-repeat left center;
+}
+#corpo .projetos ul li .m-hoje{
+  background: url(../images/hoje.png) no-repeat left center;
+}
+#corpo .projetos ul li .m-proximos{
+  background: url(../images/proximos.png) no-repeat left center;
+}
+#corpo .projetos ul li .select{
+  background-color: #FFFFCC;
+}
+#corpo .projetos ul li a .num{
+  display: inline-block;
+  text-align: center;
+  font-size: 10px;
+  background: url(../images/countbg.png) no-repeat center center;
+  width: 18px;
+/*  height: 14px; */
+}
+
+
+
+#corpo #tarefas{ }
+#corpo #tarefas form{ }
+#corpo #tarefas form label{
+  display: block;
+  margin-bottom: 4px;
+  font-weight: bold;
+  color: #555555;
+}
+#corpo #tarefas form label small{
+  font-weight: normal;
+  font-size: 10px;
+}
+#corpo #tarefas form .campos{
+  padding: 5px;
+  border: 1px solid #DDD;
+  margin-right: 10px;
+}
+
+#corpo #tarefas form .bnt{
+  border: 0px solid #DDD;
+  background: #999;
+  padding: 4px 8px;
+  margin: 0;
+}
+
+
+/* FORMULARIO DIVERSOS */
+.frm-geral{
+  padding: 10px;
+}
+.frm-geral p{
+  display: block;
+  margin-bottom: 10px;
+}
+.frm-geral label{
+  display: block;
+  margin-bottom: 4px;
+  font-weight: bold;
+  color: #555555;
+}
+.frm-geral label small{
+  font-weight: normal;
+  font-size: 10px;
+}
+.frm-geral .campos{
+  padding: 5px;
+  border: 1px solid #DDD;
+  margin-right: 10px;
+}
+
+.info{
+  display: block;
+  text-align: right;
+  font-size: 10px;
+  color: #555;
+}
+.info a{
+  color: #555;
+  text-decoration: none;
+}
+
+#tb-geral{width:100%;}
+#tb-geral tbody{border-collapse:collapse;}
+#tb-geral tbody tr td{border-bottom:1px solid #DDD;border-left:1px solid #DDD;border-right:1px solid #DDD;padding:5px;text-align:center; vertical-align: middle; }
+#tb-geral thead{background:url(../images/bg-nav2.png) repeat-x 0 0;border:1px solid #BFBFBF;color:#4C77AF;cursor:default;font-weight:bold;text-align:center;}
+#tb-geral thead tr td{padding:5px; vertical-align: middle;}
+
+#n_tab{}
+#n_tab ul.tabs {margin: 0px; padding: 0px;}
+#n_tab ul.tabs li {list-style: none; display: inline;}
+#n_tab ul.tabs li a {background-color: #FFF; color: #000; padding: 3px 10px; text-decoration: none; font-size: 0.8em; border: 1px solid #DDD;}
+#n_tab ul.tabs li a:hover {border-color: #2f343a;}
+#n_tab ul.tabs li a.active { background-color: #6C6C6C; border-color: #2f343a; color: #FFF; }
+
+#n_tab .content {padding: 10px 0; }
+#n_tab .content ul {margin: 0px; padding: 0;}
+#n_tab .content ul li {list-style: none; border-bottom: 1px solid #d6dde0; padding-top: 5px; padding-bottom: 5px; font-size: 0.7em;}
+#n_tab .content ul li:last-child {border-bottom: none;}
+
+#n_tab #content_1, #content_2 {display: none; border-top: 1px solid #DDD; }
+
+/* Navegação por meses */
+.meses{
+  margin: 0; padding: 0;
+  text-align: center;
+}
+.meses li{
+  display: inline-block;
+}
+.meses li a{
+  display: block;
+  width: 71px;
+  padding: 5px 0;
+  color: #444;
+  background:url(../images/bg-mes.jpg) repeat-x 0 0 #EFEFEF;
+  text-decoration: none;
+  border: 1px solid #DDD;
+}
+.meses li a:hover{
+  border-top: 1px solid #BFBFBF;
+  border-left: 1px solid #BFBFBF;
+  border-right: 1px solid #BFBFBF;
+}
+.meses li a.select{
+  border-top: 1px solid #BFBFBF;
+  border-left: 1px solid #BFBFBF;
+  border-right: 1px solid #BFBFBF;
+  color: #4C77AF;
+
+}

@@ -1,0 +1,8 @@
+RewriteEngine On
+RewriteCond %{SCRIPT_FILENAME} !-f
+RewriteCond %{SCRIPT_FILENAME} !-d
+RewriteRule ^(.*)$ index.php
+
+#RewriteRule !\.(gif|jpg|png|css)$ index.php
+#RewriteRule ^noticias\/?([0-9]|[a-z]*)\/?$ noticias.php?secao=noticias&data=$1
+#RewriteRule ^([A-Za-z]*)\/?([0-9]+)\/?$ index.php?secao=$1&data=$2
